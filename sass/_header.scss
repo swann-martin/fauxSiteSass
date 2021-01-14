@@ -1,0 +1,24 @@
+.header {
+  margin-top: 5rem;
+  padding: 2rem;
+  h1 {
+    font-size: 7rem;
+    font-weight: normal;
+    color: gray;
+    text-align: center;
+    margin: 4rem 0;
+  }
+  .header__container {
+    height: 30rem;
+    @include flex-between;
+    &__left {
+      width: 48%;
+      color: #699;
+      font-weight: normal;
+      @include flex-center;
+    }
+    &__right {
+      width: 48%;
+    }
+  }
+}

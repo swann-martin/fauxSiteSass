@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  font-family: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.topnav__logo {
+  height: 5rem;
+}
+
+.topnav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.topnav__list li {
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+.topnav__list li:hover {
+  color: #bf4080;
+}
+
+.topnav__list li input {
+  padding: 1rem;
+  margin-right: 0.5rem;
+  border: none;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+.topnav__list li input::placeholder {
+  font-size: 1.5rem;
+}
+
+.header {
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.header h1 {
+  font-size: 7rem;
+  font-weight: normal;
+  color: gray;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.header .header__container {
+  height: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header__container__left {
+  width: 48%;
+  color: #699;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header__container__right {
+  width: 48%;
+}
+
+.middlenav {
+  background-color: #bf4080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.middlenav__list {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middlenav__list a {
+  font-weight: bold;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.articles article {
+  width: 30%;
+  padding: 2rem;
+}
+
+.articles article h4 {
+  color: grey;
+  font-size: 3rem;
+}
+
+.articles article p {
+  font-size: 1.6rem;
+  text-align: center;
+  color: black;
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */

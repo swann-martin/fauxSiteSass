@@ -1,0 +1,15 @@
+.middlenav {
+  background-color: $pink-sass;
+  @include flex-center;
+  color: white;
+  margin-top: 5rem;
+  padding: 2rem;
+  &__list {
+    width: 40%;
+    @include flex-between;
+
+    a {
+      font-weight: bold;
+    }
+  }
+}

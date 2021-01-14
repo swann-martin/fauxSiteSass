@@ -1,0 +1,15 @@
+.articles {
+  @include flex-wrap(wrap);
+  article {
+    width: 30%;
+    padding: 2rem;
+    h4 {
+      color: grey;
+      font-size: 3rem;
+    }
+    p {
+      @include colorier(black);
+      text-align: left;
+    }
+  }
+}
